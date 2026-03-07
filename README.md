@@ -1,7 +1,7 @@
 # warm-start
 
 <p align="center">
-  <img src="image.png" alt="warm-start" width="600" />
+  <img src="image.png" alt="warm-start" width="100%" />
 </p>
 
 automatic project intelligence for claude code, every session starts warm
