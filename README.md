@@ -6,11 +6,37 @@
 
 automatic project intelligence for claude code, every session starts warm
 
-## the problem
+---
+
+you open a terminal, type `claude`, and ask it to fix a bug in your auth module
+
+but claude doesn't know you're on the `feature/oauth` branch, doesn't know you have 4 uncommitted files, doesn't know this is a next.js project with pnpm, doesn't know the test command is `pnpm test` not `npm test`, doesn't know you were working on this same thing yesterday
+
+so it spends the first 3 minutes running `git status`, grepping for config files, reading your package.json, figuring out the project structure, all things it already did in the last session, and the one before that
+
+then 40 minutes in, context compacts, and it forgets everything, starts grepping again, re-reads the same files, asks you what branch you're on
+
+warm-start fixes this, it's a single hook that runs in 1.4 seconds when a session starts, gathers your git state, stack, commands, recent changes, and injects all of it directly into claude's context before you even type your first message
+
+and it re-fires after compaction, so long sessions don't degrade
+
+```
+git clone https://github.com/chiefautism/warm-start.git
+cd warm-start
+bash install.sh
+```
+
+that's it, next time you run `claude` it already knows everything
+
+---
+
+## the details
+
+### the problem
 
 every claude code session starts cold, claude spends the first few minutes running `git status`, grepping around, reading files it has read fifty times before, after context compaction mid-session it loses orientation and does it all over again, this burns context window and your time on pure rediscovery
 
-## the fix
+### the fix
 
 a `SessionStart` hook that gathers project state and injects it directly into claude's context, it fires on new sessions, resumes, `/clear`, and critically, after every compaction, claude never starts blind
 
