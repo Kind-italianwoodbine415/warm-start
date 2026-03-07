@@ -29,7 +29,7 @@ in about 1.4 seconds it collects:
 requires `jq`, that is the only dependency
 
 ```
-git clone <repo-url> warm-start
+git clone https://github.com/chiefautism/warm-start.git
 cd warm-start
 bash install.sh
 ```
